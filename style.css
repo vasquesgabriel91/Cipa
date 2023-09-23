@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300; 1.400;1.500;1.600;1.700;1.800 & display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.background{
+  background-image:  linear-gradient(20deg, #132025 0%, #48c7f4 50%); 
+  height: auto;  
+}
+.background-100vh-css{
+  background-image: linear-gradient(20deg, #132025 0%, #48c7f4 50%); 
+  height: 100vh;
+}
+/******VOTO REMOTO*****/
+.bg-color{
+  background-color: #ececec;
+}
+
+.imp{
+  margin-left: 2%;
+  height: 8vh;
+  padding-right: 1em;
+ }
+
+.lista-DataWake ul{
+list-style-type: none;
+padding-top: 1em;
+}
+.img-perfil-css{
+  height: 9em;
+}
+
+
+
+/* agradecimento.php */
+.vw_DataWake{
+width: 100vw;
+height: 100vh;
+}
+.color_DataWake{
+background-color: #48c7f4;
+width: 35vw;
+}
+.font_datawake{
+font-size: 3rem;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+color: #212121;
+}
+.color_DataWake p{
+font-size: 1.2rem;
+color: #212121; 
+line-height: 5vh;
+}
+
+/* login.php */
+.border-radius{
+  border-radius: .7em;
+}
+.container-adm{
+  border-radius: .7em;
+  box-shadow: 0px 0px 10px 2px #013523c0;
+  transition: all .6s;
+}
+.container-adm a{
+  font-weight: 600;
+  text-decoration: none ;
+  color: #212121;
+}
+.container-adm:hover{
+  cursor: pointer;
+  color: #ffff;
+  background-color: #f1f1f1;
+}
+.color_DataWake1 {
+background: linear-gradient(60deg, rgba(3,94,131,1) 0%, rgba(72,199,244,1) 60%);
+}
+.form-input input {
+border-radius: .8rem;
+border: none;
+margin-top: 3vh;
+padding:3%;
+background-color: #dadadaa4;
+width: 25vw;
+}
+.login-button {
+color: #ffff;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 2rem;
+border: none;
+margin-top: 6vh;
+padding:3%;
+transition: ease-in-out .8s;
+background-image: linear-gradient(90deg, rgba(3,94,131,1) 0%, rgba(72,199,244,1) 100%);
+}
+.login-button:hover{
+background-image: linear-gradient(90deg,  #48c7f4 60%, rgba(3,94,131,1) 100%);
+}
+.form-input a{
+width: 10vw;
+margin-top: 2vh;
+text-decoration: none ;
+}
+.background_DataWake{
+background: linear-gradient(332deg, #ffffff00 0%, #b9b9b928 80%);
+border-radius: 5%;
+backdrop-filter: blur(0.6em);
+width: 30vw;
+height: 60vh;
+}
+.circulo img{
+padding: 0;
+margin: 0;
+width: 60%;
+margin-left: 2%;
+}
+.circulo{
+  background: linear-gradient(30deg, #dfdede17 47%, #d6d5d552 55%, #55555563 100%);
+  border-radius: 20em;
+width: 7vw;
+height: 14vh;
+}
+.btn-voto{
+  height: 10vh;
+}
+.margim-css{
+  margin-top:20%;
+}
